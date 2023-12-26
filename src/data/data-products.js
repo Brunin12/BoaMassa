@@ -1,274 +1,271 @@
-
-
-
-export const produtos = [
+export const products = [
   {
     id: 1,
-    nome: "Espaguete",
-    categoria: "Massas",
-    preco: 20.0,
-    descricao:
+    name: "Espaguete",
+    category: "Massas",
+    price: "20,0",
+    description:
       "Um delicioso espaguete que pode ser combinado com diversos molhos, como bolonhesa, carbonara, alho e oleo e pesto",
-    imagem: "./Assets/img/espaguete.jpg",
+    image: "/Assets/img/espaguete.jpg",
   },
   {
     id: 2,
-    nome: "Lasanha",
-    categoria: "Massas",
-    preco: 25.0,
-    descricao:
+    name: "Lasanha",
+    category: "Massas",
+    price: "25,0",
+    description:
       "Uma maravilhosa lasanha com recheios variados como carne moída, frango, presunto e queijo, legumos e molho branco ou vermelho",
-    imagem: "./Assets/img/lasanha.jpg",
+    image: "/Assets/img/lasanha.jpg",
   },
   {
     id: 3,
-    nome: "Ravioli",
-    categoria: "Massas",
-    preco: 24.25,
-    descricao:
+    name: "Ravioli",
+    category: "Massas",
+    price: "24,25",
+    description:
       "Uma massa recheada com diferentes ingredientes como queijo, carne, espinafre ou cogumelos",
-    imagem: "./Assets/img/ravioli.jpg",
+    image: "/Assets/img/ravioli.jpg",
   },
   {
     id: 4,
-    nome: "Capeletti",
-    categoria: "Massas",
-    preco: 25.5,
-    descricao:
+    name: "Capeletti",
+    category: "Massas",
+    price: "25,5",
+    description:
       "Uma massa simples servida com diversos tipos de molhos como bolonhesa, carbonara, alfredo, pesto ou manteiga e sálvia",
-    imagem: "./Assets/img/capeletti.jpg",
+    image: "/Assets/img/capeletti.jpg",
   },
   {
     id: 5,
-    nome: "Nhoque",
-    categoria: "Massas",
-    preco: 8.99,
-    descricao:
+    name: "Nhoque",
+    category: "Massas",
+    price: "8,99",
+    description:
       "Massa feita de farinha de trigo e ovos, servida com molhos simples ou elaborados como, manteiga e parmesão, frango ao creme ou camarão alho e oleo",
-    imagem: "./Assets/img/nhoque.jpg",
+    image: "/Assets/img/nhoque.jpg",
   },
   {
     id: 6,
-    nome: "Bruschetta",
-    categoria: "Entradas",
-    preco: 9.2,
-    descricao:
+    name: "Bruschetta",
+    category: "Entradas",
+    price: "9,2",
+    description:
       "Prato original da Itália, que leva fatias de pão italiano torrado, tomate picado, alho, manjericão e azeite",
-    imagem: "./Assets/img/bruschetta.jpg",
+    image: "/Assets/img/bruschetta.jpg",
   },
   {
     id: 7,
-    nome: "Carpaccio",
-    categoria: "Entradas",
-    preco: 32.0,
-    descricao:
+    name: "Carpaccio",
+    category: "Entradas",
+    price: "32,0",
+    description:
       "Prato de origem francesa, que leva fatias finas de salmão cru, alcaparras, queijo parmesão ralado e molho mostarda",
-    imagem: "./Assets/img/carpaccio.jpg",
+    image: "/Assets/img/carpaccio.jpg",
   },
   {
     id: 8,
-    nome: "Paella",
-    categoria: "Entradas",
-    preco: 65.0,
-    descricao:
+    name: "Paella",
+    category: "Entradas",
+    price: "65,0",
+    description:
       "Um prato tipico do leste da Espanha, que leva arroz e frutos do mar como mariscos, polvo, camarões, mexilhões e lulas",
-    imagem: "./Assets/img/paella.jpg",
+    image: "/Assets/img/paella.jpg",
   },
   {
     id: 9,
-    nome: "Ebi Spicy",
-    categoria: "Entradas",
-    preco: 62.0,
-    descricao:
+    name: "Ebi Spicy",
+    category: "Entradas",
+    price: "62,0",
+    description:
       "Prato tipico do Japão, que leva camarões empanados em massa tempurá, maionese e molho picante",
-    imagem: "./Assets/img/ebi-spicy.jpg",
+    image: "/Assets/img/ebi-spicy.jpg",
   },
   {
     id: 10,
-    nome: "Aligot",
-    categoria: "Entradas",
-    preco: 18.99,
-    descricao:
+    name: "Aligot",
+    category: "Entradas",
+    price: "18,99",
+    description:
       "Um irrestivel purê de batata francês com queijo gruyere e meia cura",
-    imagem: "./Assets/img/aligot.jpg",
+    image: "/Assets/img/aligot.jpg",
   },
   {
     id: 11,
-    nome: "Filé Mignon",
-    categoria: "Carnes",
-    preco: 41.99,
-    descricao:
+    name: "Filé Mignon",
+    category: "Carnes",
+    price: "41,99",
+    description:
       "Com pouca gordura e fibras, além de muito macia, essa carne vai bem com diversos tipos de molhos",
-    imagem: "./Assets/img/file-mignon.jpg",
+    image: "/Assets/img/file-mignon.jpg",
   },
   {
     id: 12,
-    nome: "Picanha",
-    categoria: "Carnes",
-    preco: 35.99,
-    descricao:
+    name: "Picanha",
+    category: "Carnes",
+    price: "35,99",
+    description:
       "Uma execelente carne que tem uma capa de gordura e fibras generosas que acentuam o sabor e a maciez do corte",
-    imagem: "./Assets/img/picanha.png",
+    image: "/Assets/img/picanha.png",
   },
   {
     id: 13,
-    nome: "Bife Ancho",
-    categoria: "Carnes",
-    preco: 39.99,
-    descricao:
+    name: "Bife Ancho",
+    category: "Carnes",
+    price: "39,99",
+    description:
       "Uma carne que tem um ótimo nível de marmoreio e um sabor delicado, podendendo ser feita tanto na grelha ou na frigideira",
-    imagem: "./Assets/img/bife-ancho.jpg",
+    image: "/Assets/img/bife-ancho.jpg",
   },
   {
     id: 14,
-    nome: "Tomahawk Steak",
-    categoria: "Carnes",
-    preco: 159.99,
-    descricao:
+    name: "Tomahawk Steak",
+    category: "Carnes",
+    price: "159,99",
+    description:
       "É uma carne que combina duas texturas e sabores diferentes em uma só peça, e pode ser feita na grelha ou no forno",
-    imagem: "./Assets/img/tomahawk-steak.jpg",
+    image: "/Assets/img/tomahawk-steak.jpg",
   },
   {
     id: 15,
-    nome: "Prime Rib",
-    categoria: "Carnes",
-    preco: 59.99,
-    descricao:
+    name: "Prime Rib",
+    category: "Carnes",
+    price: "59,99",
+    description:
       "Parte dianteira da costela bovina, muito suculenta e saborosa, que pode ser feita na grelha ou no forno",
-    imagem: "./Assets/img/prime-rib.jpg",
+    image: "/Assets/img/prime-rib.jpg",
   },
   {
     id: 16,
-    nome: "Tiramisu",
-    categoria: "Sobremesas",
-    preco: 15.99,
-    descricao:
+    name: "Tiramisu",
+    category: "Sobremesas",
+    price: "15,99",
+    description:
       "Sobremesa italiana que leva pão de ló, café, queijo mascarpone, ovos, açucar e cacau em pó",
-    imagem: "./Assets/img/tiramisu.jpg",
+    image: "/Assets/img/tiramisu.jpg",
   },
   {
     id: 17,
-    nome: "Cheesecake",
-    categoria: "Sobremesas",
-    preco: 8.99,
-    descricao:
+    name: "Cheesecake",
+    category: "Sobremesas",
+    price: "8,99",
+    description:
       "Típica sobremesa dos Estados Unidos, que leva bolo, cream cheese e calda de frutas",
-    imagem: "./Assets/img/cheesecake.jpg",
+    image: "/Assets/img/cheesecake.jpg",
   },
   {
     id: 18,
-    nome: "Banoffee",
-    categoria: "Sobremesas",
-    preco: 9.99,
-    descricao:
+    name: "Banoffee",
+    category: "Sobremesas",
+    price: "9,99",
+    description:
       "Uma sobremesa inglesa, feita a base de biscoito triturado com manteiga, uma camada de doce de leite, banana fatiada e chantilly",
-    imagem: "./Assets/img/banoffee.png",
+    image: "/Assets/img/banoffee.png",
   },
   {
     id: 19,
-    nome: "Mil-folhas",
-    categoria: "Sobremesas",
-    preco: 9.99,
-    descricao:
+    name: "Mil-folhas",
+    category: "Sobremesas",
+    price: "9,99",
+    description:
       "Sobremesa de origem francesa, feita com massa folhada crocante e recheio cremoso de baunilha, chocolate ou frutas e açucar de confeiteiro",
-    imagem: "./Assets/img/mil-folhas.jpg",
+    image: "/Assets/img/mil-folhas.jpg",
   },
   {
     id: 20,
-    nome: "Pudim",
-    categoria: "Sobremesas",
-    preco: 5.99,
-    descricao:
+    name: "Pudim",
+    category: "Sobremesas",
+    price: "5,99",
+    description:
       "Sobremesa cremosa e gelada muito popular no Brasil, feita com leite condesado, leite e ovos",
-    imagem: "./Assets/img/pudim.jpg",
+    image: "/Assets/img/pudim.jpg",
   },
   {
     id: 21,
-    nome: "Cerveja Artesanal",
-    categoria: "Bebidas",
-    preco: 12.99,
-    descricao:
+    name: "Cerveja Artesanal",
+    category: "Bebidas",
+    price: "12,99",
+    description:
       "Cerveja artesanal de produção alemã que leva ingredientes nobres como malte, lúpulu, água e levedura ",
-    imagem: "./Assets/img/cerveja.jpg",
+    image: "/Assets/img/cerveja.jpg",
   },
   {
     id: 22,
-    nome: "Refrigerante",
-    categoria: "Bebidas",
-    preco: 7.99,
-    descricao:
+    name: "Refrigerante",
+    category: "Bebidas",
+    price: "7,99",
+    description:
       "Um refrescante refrigerante de cola com pequenos pedaços de limão e raspas de hortelã",
-    imagem: "./Assets/img/refrigerante.jpg",
+    image: "/Assets/img/refrigerante.jpg",
   },
   {
     id: 23,
-    nome: "Suco",
-    categoria: "Bebidas",
-    preco: 6.99,
-    descricao:
+    name: "Suco",
+    category: "Bebidas",
+    price: "6,99",
+    description:
       "Mais puro suco de laranjas holandesas frescas e levemente adocicada",
-    imagem: "./Assets/img/suco.jpg",
+    image: "/Assets/img/suco.jpg",
   },
   {
     id: 24,
-    nome: "Whiskey",
-    categoria: "Bebidas",
-    preco: 17.99,
-    descricao:
+    name: "Whiskey",
+    category: "Bebidas",
+    price: "17,99",
+    description:
       "Um poderoso whiskey sabor bourbon, envelhecido em barris de carvalho branco carbonizado",
-    imagem: "./Assets/img/whiskey.jpg",
+    image: "/Assets/img/whiskey.jpg",
   },
   {
     id: 25,
-    nome: "Água",
-    categoria: "Bebidas",
-    preco: 4.99,
-    descricao: "Água mineral saborizada com limão siciliano",
-    imagem: "./Assets/img/agua.jpg",
+    name: "Água",
+    category: "Bebidas",
+    price: "4,99",
+    description: "Água mineral saborizada com limão siciliano",
+    image: "/Assets/img/agua.jpg",
   },
   {
     id: 26,
-    nome: "Salada Ceasar",
-    categoria: "Saladas",
-    preco: 19.8,
-    descricao:
+    name: "Salada Ceasar",
+    category: "Saladas",
+    price: "19,8",
+    description:
       "Salada preparada com alface-romana, torrada, queijo parmesão e molho Ceasar",
-    imagem: "./Assets/img/salada-ceasar.jpg",
+    image: "/Assets/img/salada-ceasar.jpg",
   },
   {
     id: 27,
-    nome: "Salada Caprese",
-    categoria: "Saladas",
-    preco: 22.0,
-    descricao:
+    name: "Salada Caprese",
+    category: "Saladas",
+    price: "22,0",
+    description:
       "Uma salada italiana, feita com mussarela fresca, tomate e manjericão, temperada com sal e azeite",
-    imagem: "./Assets/img/salada-caprese.jpg",
+    image: "/Assets/img/salada-caprese.jpg",
   },
   {
     id: 28,
-    nome: "Salada Waldorf",
-    categoria: "Saladas",
-    preco: 40.0,
-    descricao:
+    name: "Salada Waldorf",
+    category: "Saladas",
+    price: "40,0",
+    description:
       "Criada em 1893 no Waldorf Hotel, essa salada leva uma fatia de maça e aipo, nozes cortadas, maionese",
-    imagem: "./Assets/img/salada-waldorf.jpg",
+    image: "/Assets/img/salada-waldorf.jpg",
   },
   {
     id: 29,
-    nome: "Salada Grega",
-    categoria: "Saladas",
-    preco: 13.99,
-    descricao:
+    name: "Salada Grega",
+    category: "Saladas",
+    price: "13,99",
+    description:
       "Versão original da salada que leva tomate, pepino, pimentão, cebola roxa, pimenta-do-reino, orégano, azeite e queijo feta",
-    imagem: "./Assets/img/salada-grega.jpg",
+    image: "/Assets/img/salada-grega.jpg",
   },
   {
     id: 30,
-    nome: "Salada Niçoise",
-    categoria: "Saladas",
-    preco: 22.99,
-    descricao:
+    name: "Salada Niçoise",
+    category: "Saladas",
+    price: "22,99",
+    description:
       "Salada tradicional da cidade de Nice, feita com tomate, ovos cozidos, azeitona niçoise, azeite e atum",
-    imagem: "./Assets/img/salada-nicoise.jpg",
+    image: "/Assets/img/salada-nicoise.jpg",
   },
 ];

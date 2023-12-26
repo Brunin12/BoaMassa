@@ -1,12 +1,8 @@
-
-import './App.css';
-import PaginaHome from './paginas/home';
-
+import "./App.css";
+import HomePage from "./pages/home";
 
 function App() {
-  return (
-    <PaginaHome/>
-  );
+  return <HomePage />;
 }
 
 export default App;
