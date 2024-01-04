@@ -74,7 +74,7 @@ export default function HomePage() {
           className="search"
           type="label"
           padding={10}
-          placeholder="Pesquise aqui...."
+          placeholder="Pesquise aqui..."
           onChange={(event) => getItem(event.target.value)}
         ></input>
       </section>
